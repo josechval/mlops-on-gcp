@@ -48,4 +48,4 @@ steps:
 images: ['gcr.io/$PROJECT_ID/$_TFX_IMAGE_NAME:$TAG_NAME']
 
 options:
-  default_logs_bucket_behavior: NONE
+  logging: NONE
